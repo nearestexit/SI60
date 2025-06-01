@@ -24,6 +24,7 @@ Production files are included for production at [JLCPCB](https://jlcpcb.com/).
  - Stepped and unstepped ISO, ANSI, BAE
  - Televideo ANSI bottom row
  - ADDS ANSI bottom row
+
 **Please note: compatibility for the more obscure layouts is untested.**
 
 ![KLE](https://github.com/nearestexit/SI60/blob/main/documentation/KLE.png)
@@ -63,10 +64,4 @@ Production files are included for production at [JLCPCB](https://jlcpcb.com/).
 - The STM32 will then be recognized by QMK toolbox, and it will load the firmware.
 - You may need to reconnect the keyboard after flashing.
 - Once you have flashed the firmware, you can change the keymap from [vial.rocks](https://vial.rocks)
-
-## Other Important Notes
-- The components are soldered on to the bottom of this PCB. If you are not careful when putting the keyboard together, you can knock components off the PCB.
-- The USB-C receptacles for the right half and the downstream-facing USB hub are close enough together that if the downstream USB-C port is used, cables with thick ends will not work.
-- If you do not use the downstream-facing USB-C port, there is no limit to the size of the USB-C cable.
-- The USB-Hub will not function if the left side is used as the host.
   
